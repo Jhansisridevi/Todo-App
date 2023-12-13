@@ -249,15 +249,12 @@ const App = () => {
                   {/* <FaPenSquare role="button" onClick={() => editExisting(todo.id, todo.title)}
                     className="ml-auto"
                   /> */}
-                  <button
+               <button
                     onClick={() => deleteTodo(todo.id)}
-                    className={`ml-2 bg-red-500 text-white px-4 py-2 rounded ${
-                      !todo.completed
-                        ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-                        : "bg-red-500 text-white"
-                      //todo.completed ? "cursor-not-allowed" : ""  - functionality changes
+                    className={`ml-2 px-4 py-2 rounded ${
+                      todo.completed ? "bg-gray-300 text-gray-500 cursor-not-allowed" : "bg-red-500 text-white"
                     }`}
-                    disabled={!todo.completed} //to restrict delete on completed todo
+                    disabled={todo.completed} //to restrict delete on completed todo
                   >
                     Delete
                   </button>
