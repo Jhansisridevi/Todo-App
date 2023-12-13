@@ -189,7 +189,6 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-yellow-200 to-purple-500 flex items-center justify-center">
       <div className="bg-gray-50 p-8 rounded text-center shadow-2xl ring-2 ring-gray-300 backdrop-filter backdrop-blur-lg w-full max-w-2xl">
-        {/* <h1 className="text-4xl font-bold mb-4">Todo List</h1> */}
         <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent font-mono">
           {" "}
           Todo List{" "}
