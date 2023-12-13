@@ -90,7 +90,7 @@ const initialState = [
     userId: 1,
     id: 15,
     title: "ab voluptatum amet voluptas",
-    completed: true,
+    completed: false,
   },
   {
     userId: 1,
@@ -102,25 +102,7 @@ const initialState = [
     userId: 1,
     id: 17,
     title: "quo laboriosam deleniti aut qui",
-    completed: true,
-  },
-  {
-    userId: 1,
-    id: 18,
-    title: "dolorum est consequatur ea mollitia in culpa",
     completed: false,
-  },
-  {
-    userId: 1,
-    id: 19,
-    title: "molestiae ipsa aut voluptatibus pariatur dolor nihil",
-    completed: true,
-  },
-  {
-    userId: 1,
-    id: 20,
-    title: "ullam nobis libero sapiente ad optio sint",
-    completed: true,
   },
 ];
 //Later - adding editingindex to inital state
