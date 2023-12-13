@@ -39,9 +39,16 @@ This is a React.js Todo App with Tailwind CSS, featuring a list of todo items. U
 
 - Tailwind CSS
 
+- Other dependencies as specified in package.json
+
 ## Usage
 
 1. Clone the repository:
 
 ```bash
 git clone https://github.com/Jhansisridevi/Todo-App.git
+cd todo-app
+
+```bash
+npm install
+npm run dev
